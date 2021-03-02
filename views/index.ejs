@@ -1,8 +1,37 @@
 <%- include('partials/head'); -%>
 
 <main>
-	  <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+	  <div class="hero">
+	  	<div class="title">
+	  		<h1>THE SUPERMAN CHRONICLES</h1>
+	  	</div>
+	  	<div class="movieInfo">
+	  		<a href="#">></a>
+	  		<p>
+	  			<span>R-Rated</span>
+	  		</p>
+	  	</div>
+	  	
+	  </div>
+	  <div class="latest list">
+	  	<div class="listHeader">
+	  		<h3>LATEST</h3>
+	  		<a href="#">VIEW ALL</a>
+	  	</div>
+	  	
+	  <%- include('partials/latest'); -%>
+	  </div>
+
+	  <div class="latest list">
+	  	<div class="listHeader">
+	  		<h3>COMEDY</h3>
+	  		<a href="#">VIEW ALL</a>
+	  	</div>
+	  	
+	  <!-- <%- include('partials/comedy'); -%> -->
+	  </div>
+
+
 </main>
 
 
