@@ -1,11 +1,30 @@
 *{}
 
+.movieDesc p {
+    color: antiquewhite;
+}
+
+.movieOptions {}
+
+.movieOptions a {
+    color: antiquewhite;
+    background-color: brown;
+    padding: 4px 16px;
+    border-radius: 38px;
+}
+
+.movieDesc {
+    display: b;
+}
+
 .listHeader {
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 1em;
     align-items: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 .listHeader a {
@@ -33,17 +52,22 @@
     align-items: center;
     z-index: 1;
     position: relative;
+    color: aliceblue;
 }
 
 .movieTitle h3 {
     font-size: 2em;
-    line-height: 1;
+    line-height: 0.8;
     letter-spacing: -1px;
+    font-weight: 600;
+    color: blanchedalmond;
 }
 
 .mainTitle h3 {}
 
-.movieTitle {}
+.movieTitle {
+    margin-bottom: 0;
+}
 body {
   /*padding: 50px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -52,7 +76,7 @@ body {
 
 main{
 	min-height: 100vh;
-	background-color: mediumseagreen;
+	background-color: #101c1d;
 }
 
 
@@ -73,7 +97,7 @@ main{
 .hero{
 	height: auto;
 	background-color: #f0f8ff85;
-	background-image: url(../images/superman.jpg);
+	background-image: url(../images/latest/superman.jpg);
 	background-position: center 42%;
 	background-repeat: no-repeat;
 	position: relative;
@@ -118,9 +142,10 @@ a {
     min-height: 30vh;
     padding: 10px;
     border-radius: 22px;
-    /* width: 130px; */
-    /* margin-right: 1em; */
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 
